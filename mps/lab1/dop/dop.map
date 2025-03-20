@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.42  C:\Users\reeey\Desktop\sem6\mps\lab2\task3\task3.asm Thu Mar 20 18:22:16 2025
+AVRASM ver. 2.1.42  C:\Users\reeey\Desktop\sem6\mps\lab1\dop\dop.asm Sat Mar 15 16:20:10 2025
 
 
 EQU  SIGNATURE_000 0000001e
@@ -473,19 +473,11 @@ EQU  SPMRaddr     00000010
 EQU  INT_VECTORS_SIZE 00000011
 DEF  reg_led      r20
 DEF  temp         r19
-DEF  direction    r22
-DEF  job          r21
-EQU  START        00000000
-EQU  STOP         00000001
-CSEG INIT         0000000e
-CSEG START_ISR    00000038
-CSEG STOP_ISR     0000003c
-CSEG LOOP         00000025
-CSEG DELAY_MS     00000040
-CSEG MOVE_RIGHT   0000002e
-CSEG MOVE_LEFT    00000033
-CSEG wait_start_release 00000039
-CSEG wait_stop_release 0000003d
-CSEG del3         00000041
-CSEG del2         00000042
-CSEG del1         00000043
+DEF  cnt          r21
+DEF  i            r22
+CSEG INIT         00000001
+CSEG LOOP         00000008
+CSEG LOOPER       0000000c
+CSEG END          0000000f
+CSEG LAMP_OFF     00000016
+CSEG LAMP_ON      00000018

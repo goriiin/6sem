@@ -51,16 +51,16 @@ wait_1:
 delay1: ; задержка 1с
 	ldi r16,23
 	d3:  ldi r17,236
-		d1: ldi r18,245 ; loading init value to reg
-			d2: dec r18 ; reg value--;    
-				brne d2 ; if != 0 => transition
+		d1: ldi r18,245 ; 
+			d2: dec r18 ;    
+				brne d2 ; 
 			dec r17
 			brne d1
 		dec r16
 		brne d3
 	ret
 
-delay2: ; ? задержка 2с
+delay2: ; задержка 2с
 	rcall delay1 ; после вызова на стеке будет 2 адреса возврата
 	rcall delay1
 	
