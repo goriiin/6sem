@@ -1,6 +1,6 @@
-.include "m8515def.inc" ;???? ??????????? ??? ATmega8515
+.include "m8515def.inc" 
 
-.def temp = r16 ;????????? ???????
+.def temp = r16 
 
 .equ led = 0 ;0-й бит порта PB
 .equ sw0 = 0 ;0-й бит порта PA
@@ -9,8 +9,6 @@
 .org $000
 	rjmp INIT ;обработка сброса
 
-
-;***ИНИЦИАЛИЗАЦИЯ МК***
 
 INIT:
 	ldi temp,high(RAMEND) ;установка
