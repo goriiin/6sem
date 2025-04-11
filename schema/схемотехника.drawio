@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.2.9" pages="2">
+  <diagram name="Страница — 1" id="QnGEhsI-5GMDy5BABRzZ">
+    <mxGraphModel dx="798" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wK-A-3933wt4x0oGmfE0-1" value="Блок вывода&lt;br&gt;результата" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="wK-A-3933wt4x0oGmfE0-2" target="wK-A-3933wt4x0oGmfE0-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-2" value="Измерительная RC цепь" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wK-A-3933wt4x0oGmfE0-3" target="wK-A-3933wt4x0oGmfE0-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-3" value="Измерительный резистор" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="wK-A-3933wt4x0oGmfE0-4" target="wK-A-3933wt4x0oGmfE0-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-4" value="Генератор импульсов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-5" value="Блок счетчиков" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.543;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wK-A-3933wt4x0oGmfE0-5" target="wK-A-3933wt4x0oGmfE0-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.021;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="wK-A-3933wt4x0oGmfE0-9" target="wK-A-3933wt4x0oGmfE0-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="wK-A-3933wt4x0oGmfE0-9" target="wK-A-3933wt4x0oGmfE0-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wK-A-3933wt4x0oGmfE0-9" target="wK-A-3933wt4x0oGmfE0-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-9" value="Блок Управления" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-19" value="reset/stop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wK-A-3933wt4x0oGmfE0-20" value="выбор&lt;br&gt;режима" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="415" y="353" width="70" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PpY3vkXX8_8rSLwj80rG" name="Страница — 2">
+    <mxGraphModel dx="1609" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rwqLKJQBrW0levas6n_u-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="490" width="210" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rwqLKJQBrW0levas6n_u-45" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="82.5" y="190" width="115" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rwqLKJQBrW0levas6n_u-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.7_segment_display;pointerEvents=1;fillColor=#000000;" vertex="1" parent="rwqLKJQBrW0levas6n_u-45">
+          <mxGeometry x="27.5" y="25" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rwqLKJQBrW0levas6n_u-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=1;" vertex="1" parent="rwqLKJQBrW0levas6n_u-45">
+          <mxGeometry width="115" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
