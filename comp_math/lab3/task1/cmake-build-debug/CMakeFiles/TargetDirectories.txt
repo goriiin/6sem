@@ -1,0 +1,3 @@
+/home/dmitry/Desktop/sem6/comp_math/lab3/task1/cmake-build-debug/CMakeFiles/task1.dir
+/home/dmitry/Desktop/sem6/comp_math/lab3/task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitry/Desktop/sem6/comp_math/lab3/task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
