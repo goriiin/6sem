@@ -16,3 +16,9 @@
     type: Book
     title: >-
         Бирюков С.А. Применение цифровых микросхем серий ТТЛ и КМОП. - М.: ДМК Пресс, 2003. - 240 с.
+справочник:
+    type: Web
+    title:
+    url:
+        value: https://www.microshemca.ru
+        date: 2025-04-30

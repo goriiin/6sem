@@ -4,7 +4,7 @@
 #include <iomanip>
 #include <numeric>   // Для std::iota
 #include <stdexcept> // Для обработки ошибок
-#include <algorithm> // Для std::lower_bound
+#include <algorithm>
 
 
 // Вычисляет значение полинома Лагранжа в точке xp
@@ -84,7 +84,7 @@ struct SplineData {
     std::vector<double> x; // Узлы xi
     std::vector<double> y; // Значения yi = f(xi)
     std::vector<double> M; // Вторые производные Mi в узлах
-    double h;              // Шаг (предполагается равномерная сетка)
+    double h;              // Шаг (равномерная сетка)
 };
 
 // Решение трёхдиагональной СЛАУ методом Томаса
